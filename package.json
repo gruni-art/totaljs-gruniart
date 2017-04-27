@@ -1,0 +1,22 @@
+{
+  "name": "totaljs-gruniart",
+  "version": "1.0.0",
+  "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
+  "main": "debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruni-art/totaljs-gruniart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gruni-art/totaljs-gruniart/issues"
+  },
+  "homepage": "https://github.com/gruni-art/totaljs-gruniart#readme",
+  "dependencies": {
+    "total.js": "^2.5.0"
+  }
+}
