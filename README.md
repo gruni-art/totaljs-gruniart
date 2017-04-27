@@ -53,4 +53,8 @@ The deployment will start. When prompted, confirm by typing: ```Y``` (followed b
 
 After the deployment has succeeded, type: ```gcloud app browse```
 
-Open a browser and browse for the URL provided for the application.
+Open a browser and browse for the URL provided for the application, e.g.:
+
+```javascript
+https://long-temple-164810.appspot.com
+```
