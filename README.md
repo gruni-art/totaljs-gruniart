@@ -43,6 +43,20 @@ Following on, type:
 npm install
 ```
 
+To browse the application now, type:
+
+```javascript
+npm run start
+```
+
+Next, open your browser to:
+
+```javascript
+https://8080-dot-2352367-dot-devshell.appspot.com/?authuser=0
+```
+
+# Deploy
+
 then type:
 
 ```javascript
