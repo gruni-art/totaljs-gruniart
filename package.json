@@ -17,8 +17,7 @@
     "url": "https://github.com/gruni-art/totaljs-gruniart/issues"
   },
   "homepage": "https://github.com/gruni-art/totaljs-gruniart#readme",
-  "dependencies": {
-    "express": "~4.15.2",    
+  "dependencies": {   
     "total.js": "^2.5.0"
   },
   "devDependencies": {
