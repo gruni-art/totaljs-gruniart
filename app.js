@@ -16,18 +16,23 @@
 'use strict';
 
 // [START app]
-const express = require('express');
+//const express = require('express');
 
-const app = express();
+//const app = express();
 
-app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!').end();
-});
+//app.get('/', (req, res) => {
+//  res.status(200).send('Hello, world!').end();
+//});
 
 // Start the server
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
-  console.log('Press Ctrl+C to quit.');
-});
+const fs = require('fs');
+const options = {port: PORT};
+
+//app.listen(PORT, () => {
+//  console.log(`App listening on port ${PORT}`);
+//  console.log('Press Ctrl+C to quit.');
+  console.log(`TotalJS listening on port ${PORT}`);
+  require('total.js').http('release', options);  
+//});
 // [END app]
