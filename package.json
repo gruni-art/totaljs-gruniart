@@ -4,6 +4,7 @@
   "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
   "main": "debug.js",
   "scripts": {
+    "start": "node release.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "homepage": "https://github.com/gruni-art/totaljs-gruniart#readme",
   "dependencies": {
     "total.js": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodejs-repo-tools": "git+https://git@github.com/GoogleCloudPlatform/nodejs-repo-tools.git"
+  },  
+  "engines": {
+    "node": ">=4.3.2"
   }
 }
