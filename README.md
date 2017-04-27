@@ -51,6 +51,6 @@ gcloud app deploy --project long-temple-164810
 
 The deployment will start. When prompted, confirm by typing: ```Y``` (followed by ENTER)
 
-After the deployment has succeeded, type: ```gcloud browse```
+After the deployment has succeeded, type: ```gcloud app browse```
 
 Open a browser and browse for the URL provided for the application.
