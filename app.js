@@ -25,14 +25,17 @@
 //});
 
 // Start the server
-const PORT = process.env.PORT || 8080;
-const fs = require('fs');
-const options = {port: PORT};
+var PORT = process.env.PORT || 8080;
+var fs = require('fs');
+var options = {};
+options.ip = 'auto';
+options.port = PORT;
+var framework = require('total.js');
+framework.http('release', options);
 
 //app.listen(PORT, () => {
 //  console.log(`App listening on port ${PORT}`);
 //  console.log('Press Ctrl+C to quit.');
-  console.log(`TotalJS listening on port ${PORT}`);
-  require('total.js').http('release', options);  
+//  console.log(`TotalJS listening on port ${PORT}`);
 //});
 // [END app]
