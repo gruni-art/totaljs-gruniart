@@ -22,7 +22,7 @@ CLONETODIR=~/src/long-temple-164810/totaljs-gruniart
 next type:
 
 ```javascript
-git clone https:// $CLONETODIR
+git clone https://github.com/gruni-art/totaljs-gruniart $CLONETODIR
 ```
 
 then type:
